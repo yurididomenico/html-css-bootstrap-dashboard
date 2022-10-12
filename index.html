@@ -23,20 +23,21 @@
   <div class="contenitore-generale">
     <div class="contenitore-top">
       <!-- [______Intestazione_________________________________________________] -->
-      <header class="container">
+      <header>
         <div class="row align-items-center justify-content-between p-3">
-          <div class="col-2 col-md-1">
-            <img src="./assets/img/mobile-logo.png" alt="">
+          <div class="col-2 col-md-1 col-lg-1 pe-lg-3">
+            <img class="d-block d-lg-none" src="./assets/img/mobile-logo.png" alt="">
+            <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="">
           </div>
 
-          <div class="col">
+          <div class="col-8 flex-grow-1">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
               <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
             </div>
           </div>
 
-          <div class="col-1">
+          <div class="col-1 ">
             <div class="dropdown">
               <a class="text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell"></i>
