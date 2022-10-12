@@ -13,87 +13,48 @@
 img
 {
   display: block;
-  width: 100%;
 }
 a
 {
   color: black;
 }
 /* |||||||||| INIZIO |||||||||| */
-.contenitore-generale
-{
-  height: 100vh;
-}
-
-nav,
-main
-{
-  height: calc(100vh - 75px);
-}
-
-/* |||||||||| HEADER |||||||||| */
-header
-{
-  height: 75px;
-}
-.ms-text-orange
-{
-  color: #fd8d21;
-}
-
-
-
-/* |||||||||| NAV |||||||||| */
-nav
-{
-  background-image: url('../img/sidebar-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10px 0;
-  background-color: #071e33;
-}
-
-
-/* |||||||||| MAIN |||||||||| */
-.contenitore-bottom
-{
-  height: calc(100vh - 75px);
-}
-.contenitore-bottom img
-{
-  height: 100%
-}
-
-
-
-
-.contenitore-bottom .row
+.row
 {
   --bs-gutter-x: 0;
 }
+/* |||||||||| HEADER |||||||||| */
+.contenitore-top
+{
+  height: 75px;
+  background-color: #f8f9fa;
+}
+
+.contenitore-generale > .contenitore-top > .row
+{
+  height: 100%;
+}
+
+
+/* |||||||||| NAV |||||||||| */
+
+
+/* |||||||||| MAIN |||||||||| */
+
+
+
+/* 
+.contenitore-bottom .row
+{
+  --bs-gutter-x: 0;
+} */
 /* |||||||||| HOVER |||||||||| */
 
-.ms-text-orange:hover
-{
-  color: #fd8d21;
-}
 
 
 /* |||||||||| AREA TEST |||||||||| */
 
-/* temporaneo */
 
-/* temporaneo */
-
-.form-control
-{
-  font-size: 0.8rem; 
-}
-
-.contenitore-top > header > .row > *
-{
-  padding-left: 0;
-}
 /* |||||||||| AREA TEST |||||||||| */
 
 
