@@ -46,6 +46,10 @@ a
   width: 50px;
 }
 
+.ms-lh-30px
+{
+  line-height: 30px;
+}
 
 .contenitore-generale > .contenitore-top > .row
 {
