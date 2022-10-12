@@ -13,15 +13,30 @@
 img
 {
   display: block;
+  width: 100%;
 }
 a
 {
   color: black;
 }
 /* |||||||||| INIZIO |||||||||| */
+.contenitore-generale
+{
+  height: 100vh;
+}
 
+/* .contenitore-top
+{
+  height: 50px;
+}
+
+.contenitore-bottom
+{
+  height: calc(100% - 50px);
+} */
 
 /* |||||||||| HEADER |||||||||| */
+
 
 
 
@@ -39,7 +54,17 @@ a
 
 /* |||||||||| AREA TEST |||||||||| */
 
+/* temporaneo */
+.contenitore-top
+{
+  background-color: lightblue;
+}
 
+.contenitore-bottom
+{
+  background-color: rgb(148, 187, 200);
+}
+/* temporaneo */
 
 
 /* |||||||||| AREA TEST |||||||||| */
