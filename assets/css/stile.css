@@ -35,6 +35,15 @@ a
   height: 100%;
 }
 
+.contenitore-generale > .contenitore-top > .row .form-control
+{
+  font-size: 0.8rem; 
+}
+
+.ms-text-orange
+{
+  color: #fd8d21;
+}
 
 /* |||||||||| NAV |||||||||| */
 
@@ -49,7 +58,10 @@ a
   --bs-gutter-x: 0;
 } */
 /* |||||||||| HOVER |||||||||| */
-
+.ms-text-orange:hover
+{
+  color: #fd8d21;
+}
 
 
 /* |||||||||| AREA TEST |||||||||| */

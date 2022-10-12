@@ -23,9 +23,40 @@
   <div class="contenitore-generale">
     <div class="contenitore-top">
       <div class="row align-items-center justify-content-between center-text">
-        <div class="col">testo</div>
-        <div class="col-9">testo</div>
-        <div class="col">testo</div>
+        <!-- Prima Colonna -->
+        <div class="col-2 col-md-1">
+          <img class="w-100 d-block d-lg-none" src="./assets/img/mobile-logo.png" alt="">
+          <img class="w-100 d-none d-lg-block" src="./assets/img/logo.svg" alt="">
+        </div>
+
+        <!-- Seconda Colonna -->
+        <div class="col-8 col-md-8">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+
+        <!-- Terza Colonna -->
+        <div class="col-1 col-md-2 d-flex justify-content-between">
+          <i class="fa-solid fa-list d-none d-lg-block"></i>
+          <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+          <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+          <!-- Campanella-down -->
+          <div class="dropdown">
+            <a class="ms-text-orange" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bell"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profilo</a></li>
+              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
 
