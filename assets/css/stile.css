@@ -23,11 +23,10 @@ a
 {
   --bs-gutter-x: 0;
 }
-/* |||||||||| HEADER |||||||||| */
-.contenitore-top
+
+.ms-text-orange
 {
-  height: 75px;
-  background-color: #f8f9fa;
+  color: #fd8d21;
 }
 
 .contenitore-generale > .contenitore-top > .row
@@ -39,16 +38,25 @@ a
 {
   font-size: 0.8rem; 
 }
-
-.ms-text-orange
+/* |||||||||| HEADER |||||||||| */
+.contenitore-top
 {
-  color: #fd8d21;
+  height: 75px;
+  background-color: #f8f9fa;
 }
+
+
+
 
 /* |||||||||| NAV |||||||||| */
 
 
 /* |||||||||| MAIN |||||||||| */
+.contenitore-bottom
+{
+  height: calc(100vh - 75px);
+}
+
 
 
 
