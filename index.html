@@ -24,12 +24,14 @@
     <div class="contenitore-top">
       <!-- [______Intestazione_________________________________________________] -->
       <header>
-        <div class="row align-items-center justify-content-between p-3">
+        <div class="row justify-content-between align-items-center p-3">
+          <!-- Prima Colonna -->
           <div class="col-2 col-md-1 col-lg-1 pe-lg-3">
             <img class="d-block d-lg-none" src="./assets/img/mobile-logo.png" alt="">
             <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="">
           </div>
 
+          <!-- Seconda Colonna -->
           <div class="col-8 flex-grow-1">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -37,9 +39,14 @@
             </div>
           </div>
 
-          <div class="col-1 ">
+          <!-- Terza Colonna -->
+          <div class="col-1 d-flex justify-content-between">
+            <i class="fa-solid fa-list d-none d-lg-block"></i>
+            <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+
             <div class="dropdown">
-              <a class="text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="ms-text-orange" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell"></i>
               </a>
               <ul class="dropdown-menu">

@@ -35,7 +35,10 @@ a
 } */
 
 /* |||||||||| HEADER |||||||||| */
-
+.ms-text-orange
+{
+  color: #fd8d21;
+}
 
 
 
@@ -47,8 +50,12 @@ a
 
 
 
-/* |||||||||| FOOTER |||||||||| */
+/* |||||||||| HOVER |||||||||| */
 
+.ms-text-orange:hover
+{
+  color: #fd8d21;
+}
 
 
 /* |||||||||| AREA TEST |||||||||| */
