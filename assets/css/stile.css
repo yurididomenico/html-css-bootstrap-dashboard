@@ -24,17 +24,18 @@ a
 {
   height: 100vh;
 }
-/* .contenitore-top
+
+nav,
+main
 {
-  height: 50px;
+  height: calc(100vh - 75px);
 }
 
-.contenitore-bottom
-{
-  height: calc(100% - 50px);
-} */
-
 /* |||||||||| HEADER |||||||||| */
+header
+{
+  height: 75px;
+}
 .ms-text-orange
 {
   color: #fd8d21;
@@ -43,13 +44,33 @@ a
 
 
 /* |||||||||| NAV |||||||||| */
-
+nav
+{
+  background-image: url('../img/sidebar-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  background-color: #071e33;
+}
 
 
 /* |||||||||| MAIN |||||||||| */
+.contenitore-bottom
+{
+  height: calc(100vh - 75px);
+}
+.contenitore-bottom img
+{
+  height: 100%
+}
 
 
 
+
+.contenitore-bottom .row
+{
+  --bs-gutter-x: 0;
+}
 /* |||||||||| HOVER |||||||||| */
 
 .ms-text-orange:hover
@@ -61,10 +82,7 @@ a
 /* |||||||||| AREA TEST |||||||||| */
 
 /* temporaneo */
-.contenitore-bottom
-{
-  background-color: lightblue;
-}
+
 /* temporaneo */
 
 .form-control
