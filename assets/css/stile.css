@@ -56,7 +56,11 @@ a
 {
   height: calc(100vh - 75px);
 }
-
+.contenitore-bottom .row > div:first-child
+{
+  background-image: url('../img/sidebar-bg.png');
+  background-color: #071e33;
+}
 
 
 
