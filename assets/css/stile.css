@@ -24,7 +24,6 @@ a
 {
   height: 100vh;
 }
-
 /* .contenitore-top
 {
   height: 50px;
@@ -55,18 +54,21 @@ a
 /* |||||||||| AREA TEST |||||||||| */
 
 /* temporaneo */
-.contenitore-top
+.contenitore-bottom
 {
   background-color: lightblue;
 }
-
-.contenitore-bottom
-{
-  background-color: rgb(148, 187, 200);
-}
 /* temporaneo */
 
+.form-control
+{
+  font-size: 0.8rem; 
+}
 
+.contenitore-top > header > .row > *
+{
+  padding-left: 0;
+}
 /* |||||||||| AREA TEST |||||||||| */
 
 
