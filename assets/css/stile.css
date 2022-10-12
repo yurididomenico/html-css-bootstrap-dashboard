@@ -29,6 +29,12 @@ a
   color: #fd8d21;
 }
 
+.ms-bg-blue
+{
+  background-color: #245eb7;
+}
+
+
 .ms-w-50px
 {
   width: 50px;
@@ -60,12 +66,11 @@ a
 {
   height: calc(100vh - 75px);
 }
-.contenitore-bottom .row > div:first-child
+.contenitore-bottom > .row > div:first-child
 {
   background-image: url('../img/sidebar-bg.png');
   background-color: #071e33;
 }
-
 
 
 /* 
