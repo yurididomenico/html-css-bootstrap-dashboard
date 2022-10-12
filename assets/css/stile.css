@@ -34,11 +34,19 @@ a
   background-color: #245eb7;
 }
 
+.ms-w-h-30px-redorange
+{
+  width: 30px;
+  height: 30px;
+  background-color: #f06254;
+}
 
 .ms-w-50px
 {
   width: 50px;
 }
+
+
 .contenitore-generale > .contenitore-top > .row
 {
   height: 100%;
