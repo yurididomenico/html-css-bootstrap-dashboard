@@ -29,6 +29,10 @@ a
   color: #fd8d21;
 }
 
+.ms-w-50px
+{
+  width: 50px;
+}
 .contenitore-generale > .contenitore-top > .row
 {
   height: 100%;
