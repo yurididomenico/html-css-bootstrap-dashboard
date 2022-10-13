@@ -41,15 +41,43 @@ a
   background-color: #f06254;
 }
 
+.ms-w-40px
+{
+  width: 40px;
+}
+
 .ms-w-50px
 {
   width: 50px;
 }
 
-.ms-w-h-40px
+.ms-w-50px
 {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+}
+
+.ms-w-100px
+{
+  width: 100px;
+}
+
+.ms-w-150px
+{
+  width: 150px;
+}
+
+.ms-w-h-30px
+{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.ms-w-h-20px
+{
+  width: 20px;
+  height: 20px;
 }
 
 .ms-lh-30px

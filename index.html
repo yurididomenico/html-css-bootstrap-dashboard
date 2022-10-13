@@ -120,16 +120,19 @@
                 <div class="d-flex align-items-center justify-content-between">
                   <div class="card-header d-flex justify-content-between w-100">
                     <h4 class="flex-grow-1">Prossime Classi</h4>
-                    <button class="justify-content-end btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                    <button class="justify-content-end btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                        class="fa-solid fa-plus"></i></button>
                   </div>
-                  
-                  
+
+
 
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                     aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      <button type="button" class=" btn-outline-primary" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                       ...
@@ -141,10 +144,10 @@
                     <thead>
                       <tr>
                         <th scope="col" class="w-50">Nome</th>
-                        <th scope="col" class="">Data Inizio</th>
-                        <th scope="col" class="">ROI</th>
+                        <th scope="col" class="d-none d-md-table-cell ms-w-150px">Data Inizio</th>
+                        <th scope="col" class="d-none d-md-table-cell">ROI</th>
                         <th scope="col" class="">Stato</th>
-                        <th scope="col" class="">Azioni</th>
+                        <th scope="col" class="ms-w-100px">Azioni</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -154,39 +157,19 @@
                             class="ms-w-h-30px-redorange text-white rounded-circle ms-redorange d-inline-block ms-lh-30px center-text">
                             <i class="fa-solid fa-code"></i>
                           </div>
-                          <span>testo1</span>
+                          <span>Classe 75</span>
                         </td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
-                      </tr>
-                      <tr>
+                        <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge bg-success text-white">Done</span></td>
                         <td>
-                          <div
-                            class="ms-w-h-30px-redorange text-white rounded-circle ms-redorange d-inline-block ms-lh-30px center-text">
-                            <i class="fa-solid fa-code"></i>
-                          </div>
-                          <span>testo1</span>
+                          <button type="button" class="btn btn-outline-dark ms-w-h-30px p-0"><i
+                              class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-dark ms-w-h-30px p-0"><i
+                              class="fa-solid fa-trash"></i></button>
                         </td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
                       </tr>
-                      <tr>
-                        <td>
-                          <div
-                            class="ms-w-h-30px-redorange text-white rounded-circle ms-redorange d-inline-block ms-lh-30px center-text">
-                            <i class="fa-solid fa-code"></i>
-                          </div>
-                          <span>testo1</span>
-                        </td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
-                        <td>testo</td>
-                      </tr>
+
                     </tbody>
                   </table>
                 </div>
