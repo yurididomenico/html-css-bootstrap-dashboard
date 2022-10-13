@@ -127,15 +127,92 @@
 
 
 
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                  <div class="w-75 offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                     aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
                       <button type="button" class=" btn-outline-primary" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                      ...
+                      <form class="row g-3 needs-validation">
+                        <div class="d-flex">
+                          <!-- Form Email -->
+                          <div class="mb-3 me-3 w-50">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <!-- Form Password -->
+                          <div class="w-50">
+                            <label for="inputPassword5" class="form-label">Password</label>
+                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                          </div>
+                        </div>
+                        <!-- Form Indirizzo -->
+                        <div class="input-group mb-3">
+                          <div class="mb-3 w-100">
+                            <label for="indirizzo" class="form-label">Indirizzo</label>
+                            <input type="email" class="form-control" id="indirizzo">
+                          </div>
+                        </div>
+                        <!-- Form Città -->
+                        <div class="col-md-6 me-3">
+                          <label for="validationCustom03" class="form-label">City</label>
+                          <input type="text" class="form-control" id="validationCustom03" required>
+                          <div class="invalid-feedback">
+                            Please provide a valid city.
+                          </div>
+                        </div>
+                        <!-- Form Stato -->
+                        <div class="col-md-3 me-3">
+                          <label for="validationCustom04" class="form-label">State</label>
+                          <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid state.
+                          </div>
+                        </div>
+                        <!-- Form CAP -->
+                        <div class="col-md-2">
+                          <label for="validationCustom05" class="form-label">CAP</label>
+                          <input type="text" class="form-control" id="validationCustom05" required>
+                          <div class="invalid-feedback">
+                            Please provide a valid zip.
+                          </div>
+                        </div>
+                        <!-- Form Foto -->
+                        <div>
+                          <label for="inputGroupSelect01" class="form-label">Foto</label>
+                          <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Scegli File</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- Form Checkbox -->
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Seleziona per proseguire
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Form Submit & Reset -->
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit">Salva</button>
+                          <button class="btn bg-warning text-dark" type="reset">Svuota</button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
@@ -380,7 +457,7 @@
                 </div>
               </div>
 
-              <div class="card my-3" style="width: 18rem;">
+              <div class="card my-3 w-100" style="width: 18rem;">
                 <img src="./assets/img/chart.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Utenti attivi</h5>
